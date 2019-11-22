@@ -2,15 +2,14 @@
 
 # Created by: Jaeyoon (Jay) Lee
 # Created on: Nov 2019
-# This program calculate returns the middle percentage mark
-#   and takes the level to grade
+# This program calculates the volume of cylinder
 
 
 import math
 
 
 def calculate_volume(radius, height):
-    # this function calculate the average mark
+    # this function calculate the volume of cylinder
 
     # process
     volume = math.pi * (radius**2) * height
@@ -19,7 +18,7 @@ def calculate_volume(radius, height):
 
 
 def main():
-    # this function gets base and height
+    # this function gets radius and height
 
     # input
     radius = input("Enter the radius of cylinder (metre): ")
